@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aura Studio | Estética y cuidado de la piel</title>
+<meta name="description" content="Aura Studio: tratamientos faciales, cuidado de la piel y rituales de bienestar con atención personalizada. Consultá por WhatsApp.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Aura Studio | Estética y cuidado de la piel">
+<meta property="og:description" content="Tratamientos faciales y rituales de cuidado pensados para sentirte bien en tu propia piel.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1761718209835-c8586b7dcac0?w=1200&q=75&auto=format&fit=crop">
+<meta name="theme-color" content="#f6f0e6">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23f6f0e6'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='40' text-anchor='middle' fill='%239a5f52'%3EA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--ivory:#f6f0e6;--sand:#e9dfd0;--sand2:#d9ccb8;--ink:#23201d;--taupe:#6b5f55;--rose:#9a5f52;--rose-soft:#ecd5cc;--serif:'Cormorant Garamond',Georgia,serif;--sans:Inter,system-ui,sans-serif;--ease:cubic-bezier(.2,.7,.2,1)}
+*{box-sizing:border-box;margin:0}html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{font:400 1rem/1.7 var(--sans);background:var(--ivory);color:var(--ink);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%}a{color:inherit}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.08;letter-spacing:-.01em}
+h1{font-size:clamp(2.9rem,9vw,5.6rem)}h2{font-size:clamp(2.1rem,5vw,3.4rem)}h3{font-size:1.55rem}
+p{color:var(--taupe)}.wrap{width:min(1180px,100% - 2.5rem);margin-inline:auto}
+section{padding:clamp(4.5rem,10vw,8rem) 0}
+:focus-visible{outline:2px solid var(--rose);outline-offset:3px;border-radius:4px}
+.skip{position:absolute;left:-999px;top:.5rem;background:var(--ink);color:#fff;padding:.6rem 1rem;z-index:99}.skip:focus{left:.5rem}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:.8rem 1.6rem;border-radius:999px;border:1px solid var(--ink);background:var(--ink);color:var(--ivory);font:500 .95rem var(--sans);text-decoration:none;cursor:pointer;transition:transform .3s var(--ease),background .3s,color .3s}
+.btn:hover{transform:translateY(-2px);background:var(--rose);border-color:var(--rose)}
+.btn.ghost{background:transparent;color:var(--ink)}.btn.ghost:hover{background:var(--ink);color:var(--ivory);border-color:var(--ink)}
+.btn.sm{min-height:44px;padding:.5rem 1.2rem;font-size:.9rem}
+.link{font-weight:500;text-decoration:none;border-bottom:1px solid var(--rose);padding-bottom:2px;transition:color .3s}.link:hover{color:var(--rose)}
+header{position:fixed;inset:0 0 auto;z-index:50;transition:background .4s,box-shadow .4s}
+header.on{background:rgba(246,240,230,.92);backdrop-filter:blur(10px);box-shadow:0 1px 0 var(--sand2)}
+.bar{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{font:500 1.35rem var(--serif);letter-spacing:.32em;text-decoration:none;display:flex;align-items:center;gap:.7rem}
+.logo i{display:block;width:26px;height:1px;background:var(--rose)}.logo span{font:400 .72rem var(--sans);letter-spacing:.3em;color:var(--taupe)}
+nav ul{list-style:none;padding:0;display:flex;align-items:center;gap:2rem}
+nav a:not(.btn){text-decoration:none;font-size:.95rem;position:relative}
+nav a:not(.btn)::after{content:"";position:absolute;left:0;bottom:-4px;width:100%;height:1px;background:var(--rose);transform:scaleX(0);transform-origin:left;transition:transform .35s var(--ease)}
+nav a:not(.btn):hover::after{transform:scaleX(1)}
+.burger{display:none;width:48px;height:48px;border:0;background:none;cursor:pointer}
+.burger b{display:block;width:24px;height:1.5px;background:var(--ink);margin:6px auto;transition:transform .3s}
+.burger[aria-expanded=true] b:first-child{transform:translateY(3.7px) rotate(45deg)}.burger[aria-expanded=true] b:last-child{transform:translateY(-3.7px) rotate(-45deg)}
+@media(max-width:900px){.burger{display:block}
+nav{position:fixed;inset:72px 0 auto;background:var(--ivory);padding:1rem 1.5rem 2rem;border-bottom:1px solid var(--sand2);transform:translateY(-12px);opacity:0;visibility:hidden;transition:.35s var(--ease)}
+nav.open{transform:none;opacity:1;visibility:visible}nav ul{flex-direction:column;align-items:stretch;gap:0}
+nav li a:not(.btn){display:block;padding:.9rem 0;font-size:1.1rem;border-bottom:1px solid var(--sand)}nav a::after{display:none}nav li:last-child{margin-top:1.2rem}}
+.hero{padding:7rem 0 4rem;min-height:100svh;display:flex;align-items:center}
+.hero .wrap{display:grid;gap:2.5rem;align-items:center}
+.hero p.lead{font-size:1.15rem;max-width:34rem;margin:1.5rem 0 2rem}.cta{display:flex;flex-wrap:wrap;gap:.8rem}
+.arch{position:relative}.arch .ph{aspect-ratio:4/5;border-radius:999px 999px 0 0;max-height:68svh;width:100%}
+.stamp{position:absolute;left:-.5rem;bottom:2rem;background:var(--ivory);border:1px solid var(--sand2);padding:1rem 1.3rem;max-width:200px;font:italic 1.15rem/1.25 var(--serif);color:var(--rose)}
+@media(min-width:900px){.hero .wrap{grid-template-columns:1.15fr .85fr;gap:4rem}.stamp{left:-2.5rem}}
+.ph{background:linear-gradient(160deg,var(--sand),var(--rose-soft));overflow:hidden;position:relative}
+.ph img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease)}
+.about .wrap{display:grid;gap:3rem}.about .imgs{position:relative;padding-bottom:3rem}
+.about .a1{aspect-ratio:4/5;width:78%}.about .a2{aspect-ratio:1;width:48%;position:absolute;right:0;bottom:0;border:8px solid var(--ivory)}
+.about p+p{margin-top:1rem}.about h2{margin-bottom:1.5rem}
+@media(min-width:900px){.about .wrap{grid-template-columns:1fr 1fr;gap:6rem;align-items:center}}
+.treat{background:var(--sand)}.head{max-width:40rem;margin-bottom:2.5rem}.head p{margin-top:1rem}
+.demo{display:inline-block;margin-top:1rem;font-size:.85rem;color:var(--rose);border:1px dashed var(--rose);padding:.3rem .8rem;border-radius:999px}
+.filters{display:flex;gap:.6rem;flex-wrap:wrap;margin-bottom:2.5rem}
+.chip{min-height:44px;padding:.4rem 1.2rem;border-radius:999px;border:1px solid var(--sand2);background:transparent;font:400 .92rem var(--sans);color:var(--ink);cursor:pointer;transition:.3s}
+.chip:hover{border-color:var(--ink)}.chip[aria-pressed=true]{background:var(--ink);color:var(--ivory);border-color:var(--ink)}
+.grid{display:grid;gap:1px;background:var(--sand2);border:1px solid var(--sand2);transition:opacity .25s}
+.grid.fade{opacity:0}.card{background:var(--ivory);padding:2rem;display:flex;flex-direction:column;gap:.9rem;animation:in .5s var(--ease) both;transition:background .3s}
+.card:hover{background:#fbf7f0}.card small{color:var(--rose);font-size:.85rem}
+.meta{display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid var(--sand);padding-top:1rem;margin-top:auto;font-size:.92rem}
+.meta b{font:500 1.5rem var(--serif);color:var(--ink)}.card .btn{align-self:flex-start}
+.empty{padding:3rem 1.5rem;text-align:center;background:var(--ivory);grid-column:1/-1}.empty p{margin:.5rem 0 1.2rem}
+.note{margin-top:1.5rem;font-size:.85rem}
+@keyframes in{from{opacity:0;transform:translateY(10px)}}
+@media(min-width:700px){.grid{grid-template-columns:repeat(2,1fr)}}@media(min-width:1050px){.grid{grid-template-columns:repeat(3,1fr)}}
+.ben ul{list-style:none;padding:0;display:grid;gap:2.5rem}.ben svg{width:38px;height:38px;stroke:var(--rose);fill:none;stroke-width:1.2;stroke-linecap:round;stroke-linejoin:round;margin-bottom:1rem}
+.ben h3{margin-bottom:.4rem}@media(min-width:700px){.ben ul{grid-template-columns:repeat(2,1fr)}}@media(min-width:1050px){.ben ul{grid-template-columns:repeat(4,1fr)}}
+.ben .head{margin-inline:0}
+.gal-grid{display:grid;grid-template-columns:repeat(2,1fr);grid-auto-rows:150px;gap:.8rem}
+.gal-grid button{border:0;padding:0;cursor:zoom-in;display:block}.gal-grid .ph{height:100%}
+.gal-grid button:hover img{transform:scale(1.06)}.g1{grid-row:span 2}.g4{grid-column:span 2}
+@media(min-width:800px){.gal-grid{grid-template-columns:repeat(6,1fr);grid-auto-rows:190px}.g1{grid-column:span 2;grid-row:span 3}.g2{grid-column:span 2;grid-row:span 2}.g3{grid-column:span 2;grid-row:span 1}.g4{grid-column:span 2;grid-row:span 2}.g5{grid-column:span 2;grid-row:span 1}.g6{grid-column:span 2;grid-row:span 2}}
+dialog{border:0;background:transparent;max-width:min(94vw,980px);max-height:92vh;padding:0;margin:auto;overflow:visible}
+dialog::backdrop{background:rgba(35,32,29,.88)}dialog img{max-height:82vh;width:auto;margin:auto;object-fit:contain}
+dialog p{color:#eadfd0;text-align:center;padding-top:.8rem;font-size:.95rem}
+.x{position:absolute;right:0;top:-52px;width:44px;height:44px;border-radius:50%;border:1px solid #eadfd0;background:transparent;color:#fff;font-size:1.4rem;cursor:pointer}
+.exp{background:var(--ink);color:var(--ivory)}.exp p{color:#c9bcab}.exp .head{max-width:46rem}
+.steps{display:grid;gap:2.5rem;margin-top:3rem;counter-reset:s}.steps div{border-top:1px solid #5b5149;padding-top:1.2rem}
+.steps h3{margin-bottom:.5rem}.exp .demo{color:var(--rose-soft);border-color:var(--rose-soft)}
+@media(min-width:800px){.steps{grid-template-columns:repeat(3,1fr)}}
+.faq .wrap{display:grid;gap:3rem}.faq dl{border-top:1px solid var(--sand2)}.faq dt{border-bottom:1px solid var(--sand2)}
+.faq dt button{width:100%;min-height:64px;display:flex;justify-content:space-between;align-items:center;gap:1rem;text-align:left;background:none;border:0;font:500 1.35rem/1.25 var(--serif);color:var(--ink);cursor:pointer;padding:1rem 0}
+.faq dt button::after{content:"+";font:300 1.8rem var(--sans);color:var(--rose);transition:transform .35s var(--ease)}
+.faq dt button[aria-expanded=true]::after{transform:rotate(45deg)}
+.faq dd{display:grid;grid-template-rows:0fr;transition:grid-template-rows .4s var(--ease);border-bottom:1px solid var(--sand2)}
+.faq dd.open{grid-template-rows:1fr}.faq dd>div{overflow:hidden}.faq dd p{padding-bottom:1.4rem;max-width:40rem}.faq dd:not(.open){border-bottom-color:transparent}
+@media(min-width:900px){.faq .wrap{grid-template-columns:.8fr 1.2fr;gap:6rem}.faq .head{position:sticky;top:110px;align-self:start}}
+.loc{background:var(--sand)}.loc .wrap{display:grid;gap:3rem}.loc dl{display:grid;gap:1.5rem;margin:2rem 0}
+.loc dt{font:italic 1.2rem var(--serif);color:var(--rose)}.loc dd{white-space:pre-line}.pending{color:var(--taupe);font-style:italic}
+.mapbox{border:1px dashed var(--sand2);min-height:280px;display:grid;place-items:center;text-align:center;padding:2rem;background:var(--ivory)}
+.mapbox iframe{width:100%;height:100%;min-height:320px;border:0}
+@media(min-width:900px){.loc .wrap{grid-template-columns:1fr 1fr;gap:5rem}}
+.final{text-align:center;padding:clamp(5rem,12vw,9rem) 0}.final .box{max-width:46rem;margin:auto}.final p{margin:1.3rem auto 2rem;max-width:32rem}
+.final .rule{width:1px;height:60px;background:var(--rose);margin:0 auto 2rem}
+footer{border-top:1px solid var(--sand2);padding:4rem 0 2rem}.fg{display:grid;gap:2.5rem}
+footer ul{list-style:none;padding:0;display:grid;gap:.4rem}footer a{text-decoration:none}footer a:hover{color:var(--rose)}
+footer h3{font-size:1.2rem;margin-bottom:.7rem}.legal{margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--sand);font-size:.82rem}
+@media(min-width:800px){.fg{grid-template-columns:1.6fr 1fr 1fr}}
+.toast{position:fixed;left:50%;bottom:1.5rem;transform:translate(-50%,30px);background:var(--ink);color:var(--ivory);padding:.9rem 1.3rem;border-radius:12px;max-width:min(92vw,440px);font-size:.92rem;opacity:0;pointer-events:none;transition:.4s var(--ease);z-index:90}.toast.show{opacity:1;transform:translate(-50%,0)}
+.js .rv{opacity:0;transform:translateY(22px);transition:opacity .9s var(--ease),transform .9s var(--ease)}.js .rv.vis{opacity:1;transform:none}
+.hero .wrap>*{animation:in .9s var(--ease) both}.hero .arch{animation-delay:.15s}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}.js .rv{opacity:1;transform:none}}
+.dk{--ivory:#16130f;--ink:#f1e9dc;--taupe:#b3a595;--sand:#1f1a16;--sand2:#3a322b;--rose:#d4a695;--rose-soft:#3a2a25;background:var(--ivory);color:var(--ink)}
+header.dk{background:transparent}header.dk.on{background:rgba(22,19,15,.92);box-shadow:0 1px 0 #3a322b}
+.hero.dk{background:radial-gradient(800px 520px at 78% 25%,#33241c,transparent 65%),radial-gradient(500px 400px at 5% 90%,#241a15,transparent 70%),#16130f}
+.treat.dk,.loc.dk{background:#1b1713}.final.dk{background:#12100d}footer.dk{background:#0e0c09}
+.card:hover{background:#1e1915}.card .cimg{margin:-2rem -2rem .4rem;height:190px}.card .cimg img{transition:transform 1s var(--ease)}.card:hover .cimg img{transform:scale(1.07)}
+.card{border-top:0}.treat .chip{border-color:#3a322b}
+.exp{background:#0e0c09}.exp .steps div{border-color:#3a322b}
+.btn{position:relative;overflow:hidden}.btn::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 30%,rgba(255,255,255,.28) 50%,transparent 70%);transform:translateX(-130%)}
+.btn:hover::after{transform:translateX(130%);transition:transform .9s var(--ease)}
+.hero .ph img{animation:kb 2.8s var(--ease) both}@keyframes kb{from{transform:scale(1.18)}}
+.w{display:inline-block;opacity:0;transform:translateY(45%);animation:w 1s var(--ease) forwards;animation-delay:calc(var(--i)*110ms + 150ms)}@keyframes w{to{opacity:1;transform:none}}
+.arch::before{content:"";position:absolute;inset:-14px;border:1px solid var(--rose);border-radius:999px 999px 0 0;opacity:.4;animation:in 1.6s .5s var(--ease) both}
+.prog{position:fixed;top:0;left:0;right:0;height:2px;background:var(--rose);transform-origin:left;transform:scaleX(0);z-index:60}
+.mq{overflow:hidden;border-block:1px solid #3a322b;padding:1.2rem 0}.mq div{display:flex;width:max-content;animation:mq 40s linear infinite}
+.mq span{font:italic 1.7rem var(--serif);padding:0 2rem;color:var(--taupe);white-space:nowrap}.mq span::after{content:"";display:inline-block;width:5px;height:5px;border-radius:50%;background:var(--rose);margin-left:4rem;vertical-align:middle}
+@keyframes mq{to{transform:translateX(-50%)}}
+.js .imgs.rv .ph{clip-path:inset(0 0 100% 0);transition:clip-path 1.3s var(--ease)}.js .imgs.vis .ph{clip-path:inset(0)}.js .imgs.vis .a2{transition-delay:.25s}
+.js .gal-grid.rv button{opacity:0;transform:scale(.95)}.js .gal-grid.vis button{opacity:1;transform:none;transition:opacity .9s var(--ease),transform .9s var(--ease);transition-delay:calc(var(--i)*110ms)}
+.js .ben li{opacity:0;transform:translateY(18px);transition:.9s var(--ease)}.js .ben ul.vis li{opacity:1;transform:none}.ben li:nth-child(2){transition-delay:.12s!important}.ben li:nth-child(3){transition-delay:.24s!important}.ben li:nth-child(4){transition-delay:.36s!important}
+.ben svg{transition:transform .5s var(--ease)}.ben li:hover svg{transform:translateY(-4px) rotate(-6deg)}
+.final{position:relative;isolation:isolate;overflow:hidden}.final .bg{position:absolute;inset:0;z-index:-1}.final .bg img{width:100%;height:100%;object-fit:cover;opacity:.3;transform:scale(1.08)}
+.final .bg::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at center,rgba(18,16,13,.2),#12100d 85%)}
+.mapbox{background:#16130f;border-color:#3a322b}
+@media(prefers-reduced-motion:reduce){.w{opacity:1!important;transform:none!important}.mq div{animation:none}.js .imgs.rv .ph{clip-path:none}.js .gal-grid.rv button,.js .ben li{opacity:1;transform:none}.prog{display:none}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Saltar al contenido</a>
+<header id="top" class="dk"><div class="wrap bar">
+<a class="logo" href="#inicio" aria-label="Aura Studio, inicio">AURA<i></i><span>STUDIO</span></a>
+<button class="burger" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú"><b></b><b></b></button>
+<nav id="menu" aria-label="Principal"><ul>
+<li><a href="#inicio">Inicio</a></li><li><a href="#tratamientos">Tratamientos</a></li><li><a href="#estudio">El estudio</a></li><li><a href="#galeria">Galería</a></li><li><a href="#faq">Preguntas frecuentes</a></li>
+<li><a class="btn sm wa" href="#contacto" data-msg="Hola, Aura Studio. Quería consultar disponibilidad.">Consultar por WhatsApp</a></li></ul></nav>
+</div></header>
+<div class="prog" aria-hidden="true"></div>
+<main id="main">
+<section class="hero dk" id="inicio"><div class="wrap">
+<div><h1>Tu piel. Tu tiempo. Tu momento.</h1>
+<p class="lead">Tratamientos faciales y rituales de cuidado pensados para acompañarte a sentirte bien en tu propia piel, sin apuro y con información clara.</p>
+<div class="cta"><a class="btn" href="#tratamientos">Descubrir tratamientos</a><a class="btn ghost wa" href="#contacto" data-msg="Hola, Aura Studio. Quería consultar disponibilidad.">Consultar por WhatsApp</a></div></div>
+<div class="arch"><figure class="ph" style="margin:0;aspect-ratio:4/5;border-radius:999px 999px 0 0;max-height:68svh"><img src="https://images.unsplash.com/photo-1761718209835-c8586b7dcac0?w=900&q=75&auto=format&fit=crop" width="900" height="1125" alt="Tratamiento facial: pincel aplicando crema blanca sobre el rostro" fetchpriority="high" onerror="this.remove()"></figure>
+<div class="stamp">Rituales de cuidado, a tu ritmo.</div></div>
+</div></section>
+<div class="mq dk" aria-hidden="true"><div><span>Limpieza profunda</span><span>Hidratación</span><span>Luminosidad</span><span>Rituales de cuidado</span><span>Asesoramiento</span></div></div>
+<section class="about" id="estudio"><div class="wrap">
+<div class="imgs rv"><figure class="ph a1" style="margin:0"><img src="https://images.unsplash.com/photo-1761718210089-ba3bb5ccb54f?w=800&q=75&auto=format&fit=crop" width="800" height="1000" loading="lazy" alt="Persona recibiendo un tratamiento facial" onerror="this.remove()"></figure>
+<figure class="ph a2" style="margin:0"><img src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?w=600&q=75&auto=format&fit=crop" width="600" height="600" loading="lazy" alt="Frasco ámbar con gotero sobre un pedestal de madera" onerror="this.remove()"></figure></div>
+<div class="rv"><h2>Cuidar la piel también es tomarse un respiro.</h2>
+<p>Aura Studio nace de una idea simple: que ir a un centro de estética sea una experiencia tranquila, clara y a tu medida. Cada visita empieza conversando sobre lo que necesitás y lo que te gustaría mejorar en tu rutina.</p>
+<p>Explicamos qué incluye cada tratamiento, cuánto dura y qué podés esperar, para que decidas con información. El resultado es un espacio donde el cuidado personal se siente simple.</p>
+<p style="margin-top:1.5rem"><a class="link wa" href="#contacto" data-msg="Hola, Aura Studio. Quería hacer una consulta sin compromiso sobre un tratamiento.">Hacer una consulta sin compromiso</a></p></div>
+</div></section>
+<section class="treat dk" id="tratamientos"><div class="wrap">
+<div class="head rv"><h2>Tratamientos y rituales</h2><p>Elegí una categoría para ver las opciones. Si no sabés por dónde empezar, escribinos y lo vemos juntas.</p><span class="demo">Precios y duraciones de ejemplo, editables</span></div>
+<div class="filters" role="group" aria-label="Filtrar por categoría" id="filters"></div>
+<div class="grid" id="grid" aria-live="polite"></div>
+<p class="note">Los valores mostrados son ilustrativos de esta demostración y no corresponden a tarifas reales. Los tratamientos son de índole estética y cosmética.</p>
+</div></section>
+<section class="ben"><div class="wrap">
+<div class="head rv"><h2>Lo que vas a encontrar</h2></div>
+<ul class="rv">
+<li><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="14" r="6"/><path d="M8 34c1-7 6-11 12-11s11 4 12 11"/></svg><h3>Atención personalizada</h3><p>Una conversación inicial para entender qué buscás y cómo es tu rutina.</p></li>
+<li><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 6c6 8 9 12 9 17a9 9 0 0 1-18 0c0-5 3-9 9-17z"/></svg><h3>Adaptado a cada persona</h3><p>Los tratamientos se ajustan a tus necesidades, no al revés.</p></li>
+<li><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M6 32h28M10 32V16l10-8 10 8v16"/><path d="M17 32v-9h6v9"/></svg><h3>Un espacio para vos</h3><p>Un ambiente cuidado y calmo, pensado para desconectar un rato.</p></li>
+<li><svg viewBox="0 0 40 40" aria-hidden="true"><rect x="8" y="6" width="24" height="28" rx="2"/><path d="M14 14h12M14 20h12M14 26h7"/></svg><h3>Información clara</h3><p>Te contamos qué incluye cada sesión antes de empezar.</p></li></ul>
+</div></section>
+<section id="galeria"><div class="wrap">
+<div class="head rv"><h2>Detalles que cuentan</h2><p>Texturas, productos y ambientes que inspiran la estética de Aura Studio.</p></div>
+<div class="gal-grid rv" id="gal"></div></div></section>
+<dialog id="lb" aria-label="Imagen ampliada"><button class="x" aria-label="Cerrar imagen">&times;</button><img alt=""><p></p></dialog>
+<section class="exp"><div class="wrap">
+<div class="head rv"><h2>Cómo es tu primera consulta</h2><p>Todavía no mostramos opiniones: esta es una demostración y no publicamos reseñas inventadas. Cuando el estudio sea real, acá van a aparecer experiencias verificadas. Mientras tanto, así funciona escribirnos.</p></div>
+<div class="steps rv">
+<div><h3>Nos escribís</h3><p>Contanos qué tratamiento te interesa o qué te gustaría cuidar.</p></div>
+<div><h3>Conversamos</h3><p>Resolvemos dudas, duración y valores actualizados.</p></div>
+<div><h3>Elegís tu momento</h3><p>Coordinamos día y horario según disponibilidad.</p></div></div>
+</div></section>
+<section class="faq" id="faq"><div class="wrap">
+<div class="head rv"><h2>Preguntas frecuentes</h2></div>
+<dl class="rv" id="acc"></dl></div></section>
+<section class="loc dk" id="contacto"><div class="wrap">
+<div class="rv"><h2>Visitanos</h2>
+<dl><div><dt>Dirección</dt><dd id="c-addr"></dd></div><div><dt>Horarios</dt><dd id="c-hours"></dd></div><div><dt>Instagram</dt><dd id="c-ig"></dd></div></dl>
+<a class="btn wa" href="#contacto" data-msg="Hola, Aura Studio. Quería consultar disponibilidad.">Consultar por WhatsApp</a></div>
+<div class="mapbox rv" id="map"><p class="pending">El mapa se mostrará cuando se configure una ubicación real.</p></div>
+</div></section>
+<section class="final dk"><div class="bg" aria-hidden="true"><img src="https://images.unsplash.com/photo-1581182815808-b6eb627a8798?w=1600&q=70&auto=format&fit=crop" width="1600" height="1067" loading="lazy" alt="" onerror="this.remove()"></div><div class="wrap"><div class="box rv"><div class="rule"></div><h2>Un momento para vos empieza con una consulta.</h2><p>Escribinos, contanos qué te interesa y te orientamos sin compromiso.</p><a class="btn wa" href="#contacto" data-msg="Hola, Aura Studio. Quería hacer una consulta sin compromiso.">Consultar por WhatsApp</a></div></div></section>
+</main>
+<footer class="dk"><div class="wrap"><div class="fg">
+<div><a class="logo" href="#inicio">AURA<i></i><span>STUDIO</span></a><p style="margin-top:1rem;max-width:26rem">Estudio de estética y cuidado de la piel. Tratamientos faciales y rituales de bienestar con atención personalizada.</p></div>
+<div><h3>Explorar</h3><ul><li><a href="#tratamientos">Tratamientos</a></li><li><a href="#estudio">El estudio</a></li><li><a href="#galeria">Galería</a></li><li><a href="#faq">Preguntas frecuentes</a></li></ul></div>
+<div><h3>Contacto</h3><ul id="f-contact"></ul></div></div>
+<p class="legal">&copy; <span id="yr"></span> Aura Studio. Sitio de demostración creado por Vidrieras Web: marca, datos, precios y duraciones son ilustrativos.</p></div></footer>
+<div class="toast" id="toast" role="status"></div>
+<script>
+/* ============ CONFIGURACIÓN CENTRAL (editá solo esta parte) ============ */
+const CONFIG = {
+  whatsapp: "",
+  instagram: "",
+  address: "",
+  hours: "",
+  mapEmbedUrl: "",
+  categories: [
+    {id:"facial", name:"Tratamientos faciales", img:"photo-1761718210089-ba3bb5ccb54f"},
+    {id:"limpieza", name:"Limpieza y cuidado", img:"photo-1761718209708-9ab9ba1c7252"},
+    {id:"hidratacion", name:"Hidratación y luminosidad", img:"photo-1552046122-03184de85e08"},
+    {id:"rituales", name:"Rituales personales", img:"photo-1608571423902-eed4a5ad8108"}
+  ],
+  treatments: [
+    {name:"Tratamiento facial personalizado", cat:"facial", desc:"Sesión adaptada a tu tipo de piel, con limpieza, masaje y productos elegidos tras una breve charla.", min:75, price:48000},
+    {name:"Facial de relajación", cat:"facial", desc:"Masaje facial suave y mascarilla para una pausa de bienestar. Ideal para desconectar.", min:50, price:36000},
+    {name:"Limpieza facial profunda", cat:"limpieza", desc:"Limpieza completa con exfoliación suave y cuidado final para dejar la piel fresca.", min:60, price:38000},
+    {name:"Rutina de cuidado y asesoramiento", cat:"limpieza", desc:"Revisamos tus productos actuales y armamos una rutina simple para tu día a día.", min:40, price:22000},
+    {name:"Hidratación intensiva", cat:"hidratacion", desc:"Ritual centrado en aportar confort e hidratación a pieles que se sienten tirantes.", min:60, price:42000},
+    {name:"Ritual de luminosidad", cat:"hidratacion", desc:"Exfoliación delicada y máscara para una piel de aspecto fresco y descansado.", min:65, price:45000},
+    {name:"Ritual de mirada descansada", cat:"rituales", desc:"Cuidado delicado del contorno de ojos con masaje suave y activos hidratantes.", min:30, price:19000},
+    {name:"Ritual Aura completo", cat:"rituales", desc:"Nuestra experiencia más completa: limpieza, masaje, máscara y cierre de cuidado.", min:90, price:58000}
+  ],
+  gallery: [
+    {src:"photo-1552046122-03184de85e08", alt:"Mano alcanzando un pote de crema, un sérum y una mascarilla de tela"},
+    {src:"photo-1761718209708-9ab9ba1c7252", alt:"Rostro con espuma limpiadora durante un tratamiento facial"},
+    {src:"photo-1585945037805-5fd82c2e60b1", alt:"Textura de crema blanca sobre una superficie beige"},
+    {src:"photo-1620916297397-a4a5402a3c6c", alt:"Persona sosteniendo un frasco de vidrio negro"},
+    {src:"photo-1619451427882-6aaaded0cc61", alt:"Manos aplicando crema desde un dosificador blanco"},
+    {src:"photo-1778517436057-4ed5f9fe95bd", alt:"Perfil de una mujer con los ojos cerrados, en calma"}
+  ],
+  faq: [
+    ["¿Cómo puedo consultar por un tratamiento?","Escribinos por WhatsApp desde cualquier botón de la página: el mensaje ya va con el tratamiento elegido. Te respondemos para coordinar disponibilidad."],
+    ["¿Cuánto dura una sesión?","Cada tratamiento muestra una duración orientativa. El tiempo final puede variar según lo que hablemos en la consulta."],
+    ["¿Qué tratamiento es adecuado para mí?","Depende de tu piel y de lo que busques, por eso lo definimos en una charla previa. No podemos recomendarte uno sin conocerte."],
+    ["¿Cómo puedo conocer los precios actualizados?","Los valores de la web son de ejemplo. Consultá por WhatsApp para recibir los precios vigentes."],
+    ["¿Qué debo tener en cuenta antes de una sesión?","Contanos si usás algún producto en particular o si tenés alguna sensibilidad. Si tenés una condición de salud, consultá antes con un profesional de la salud."]
+  ]
+};
+/* ======================================================================= */
+const $=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
+const hasWA=/^\d{8,15}$/.test(CONFIG.whatsapp);
+const money=n=>"$ "+n.toLocaleString("es-AR");
+const img=(id,w)=>`https://images.unsplash.com/${id}?w=${w}&q=75&auto=format&fit=crop`;
+const waLink=m=>`https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(m)}`;
+const toast=(t)=>{const e=$("#toast");e.textContent=t;e.classList.add("show");clearTimeout(toast.t);toast.t=setTimeout(()=>e.classList.remove("show"),4200)};
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+document.documentElement.classList.add("js");
+$("#yr").textContent=new Date().getFullYear();
+function wireWA(root=document){$$(".wa",root).forEach(a=>{
+  const m=a.dataset.msg;
+  if(hasWA){a.href=waLink(m);a.target="_blank";a.rel="noopener noreferrer"}
+  else{a.addEventListener("click",e=>{e.preventDefault();toast("El número de WhatsApp está pendiente de configurar en CONFIG.whatsapp.")})}
+})}
+const burger=$(".burger"),menu=$("#menu");
+const setMenu=o=>{menu.classList.toggle("open",o);burger.setAttribute("aria-expanded",o);burger.setAttribute("aria-label",o?"Cerrar menú":"Abrir menú")};
+burger.onclick=()=>setMenu(!menu.classList.contains("open"));
+$$("a",menu).forEach(a=>a.addEventListener("click",()=>setMenu(false)));
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&menu.classList.contains("open")){setMenu(false);burger.focus()}});
+const hd=$("header"),onS=()=>hd.classList.toggle("on",scrollY>30);onS();addEventListener("scroll",onS,{passive:true});
+const grid=$("#grid"),fl=$("#filters");let cur="all";
+const cats=[{id:"all",name:"Todos"},...CONFIG.categories];
+fl.innerHTML=cats.map(c=>`<button class="chip" data-c="${c.id}" aria-pressed="${c.id==="all"}">${esc(c.name)}</button>`).join("");
+function render(){
+  const list=CONFIG.treatments.filter(t=>cur==="all"||t.cat===cur);
+  if(!list.length){grid.innerHTML=`<div class="empty"><h3>Todavía no hay tratamientos en esta categoría</h3><p>Escribinos y te contamos qué opciones podemos ofrecerte.</p><a class="btn sm wa" href="#contacto" data-msg="Hola, Aura Studio. Quería consultar por tratamientos de ${esc(cats.find(c=>c.id===cur).name)}.">Consultar por WhatsApp</a></div>`}
+  else grid.innerHTML=list.map((t,i)=>{const cn=CONFIG.categories.find(c=>c.id===t.cat);
+    return `<article class="card" style="animation-delay:${i*50}ms">${cn&&cn.img?`<figure class="cimg ph"><img src="${img(cn.img,640)}" width="640" height="400" loading="lazy" alt="" onerror="this.remove()"></figure>`:""}<small>${esc(cn?cn.name:"")}</small><h3>${esc(t.name)}</h3><p>${esc(t.desc)}</p>
+    <div class="meta"><span>${t.min} min (aprox.)</span><b>${money(t.price)}</b></div>
+    <a class="btn sm wa" href="#contacto" data-msg="Hola, Aura Studio. Quería consultar por el tratamiento de ${esc(t.name.toLowerCase())}." aria-label="Consultar por WhatsApp: ${esc(t.name)}">Consultar por WhatsApp</a></article>`}).join("");
+  wireWA(grid);
+}
+fl.addEventListener("click",e=>{const b=e.target.closest(".chip");if(!b||b.dataset.c===cur)return;
+  cur=b.dataset.c;$$(".chip",fl).forEach(x=>x.setAttribute("aria-pressed",x===b));
+  grid.classList.add("fade");setTimeout(()=>{render();grid.classList.remove("fade")},220)});
+render();
+const gal=$("#gal"),lb=$("#lb"),lbi=$("img",lb),lbp=$("p",lb);let opener;
+gal.innerHTML=CONFIG.gallery.map((g,i)=>`<button class="g${i+1}" style="--i:${i}" data-i="${i}" aria-label="Ampliar imagen: ${esc(g.alt)}"><span class="ph" style="display:block"><img src="${img(g.src,700)}" width="700" height="700" loading="lazy" alt="${esc(g.alt)}" onerror="this.remove()"></span></button>`).join("");
+gal.addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;opener=b;const g=CONFIG.gallery[b.dataset.i];
+  lbi.src=img(g.src,1400);lbi.alt=g.alt;lbp.textContent=g.alt;lb.showModal()});
+lb.addEventListener("click",e=>{if(e.target===lb||e.target.classList.contains("x"))lb.close()});
+lb.addEventListener("close",()=>opener&&opener.focus());
+$("#acc").innerHTML=CONFIG.faq.map((f,i)=>`<dt><button aria-expanded="false" aria-controls="p${i}" id="q${i}">${esc(f[0])}</button></dt><dd id="p${i}" role="region" aria-labelledby="q${i}"><div><p>${esc(f[1])}</p></div></dd>`).join("");
+$("#acc").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;const o=b.getAttribute("aria-expanded")==="true";b.setAttribute("aria-expanded",!o);$("#"+b.getAttribute("aria-controls")).classList.toggle("open",!o)});
+const P=t=>`<span class="pending">${t}</span>`;
+$("#c-addr").innerHTML=CONFIG.address?esc(CONFIG.address):P("Ubicación pendiente de personalizar");
+$("#c-hours").innerHTML=CONFIG.hours?esc(CONFIG.hours):P("Horarios pendientes de personalizar");
+const ig=CONFIG.instagram.replace(/^@/,"");
+$("#c-ig").innerHTML=ig?`<a class="link" href="https://instagram.com/${encodeURIComponent(ig)}" target="_blank" rel="noopener noreferrer">@${esc(ig)}</a>`:P("Instagram pendiente de personalizar");
+$("#f-contact").innerHTML=`<li>${CONFIG.address?esc(CONFIG.address):P("Dirección pendiente")}</li><li>${ig?`<a href="https://instagram.com/${encodeURIComponent(ig)}" target="_blank" rel="noopener noreferrer">Instagram @${esc(ig)}</a>`:P("Instagram pendiente")}</li><li>${hasWA?`<a href="${waLink("Hola, Aura Studio.")}" target="_blank" rel="noopener noreferrer">WhatsApp</a>`:P("WhatsApp pendiente")}</li>`;
+if(CONFIG.mapEmbedUrl&&CONFIG.address)$("#map").innerHTML=`<iframe src="${esc(CONFIG.mapEmbedUrl)}" title="Mapa de ubicación de Aura Studio" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`;
+wireWA();
+const rv=$$(".rv");
+if("IntersectionObserver"in window&&!matchMedia("(prefers-reduced-motion: reduce)").matches){
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("vis");io.unobserve(e.target)}}),{threshold:.12});rv.forEach(el=>io.observe(el))
+}else rv.forEach(el=>el.classList.add("vis"));
+(()=>{const rm=matchMedia("(prefers-reduced-motion: reduce)").matches;
+const h=$("h1");h.innerHTML=h.textContent.trim().split(/\s+/).map((w,i)=>`<span class="w" style="--i:${i}">${w}</span>`).join(" ");
+const m=$(".mq div");m.innerHTML+=m.innerHTML;
+const pg=$(".prog"),ar=$(".arch");let t=false;
+const up=()=>{t=false;const d=document.documentElement,max=d.scrollHeight-innerHeight;pg.style.transform=`scaleX(${max>0?scrollY/max:0})`;if(!rm&&innerWidth>900)ar.style.transform=`translateY(${Math.min(scrollY,700)*-.06}px)`};
+addEventListener("scroll",()=>{if(!t){t=true;requestAnimationFrame(up)}},{passive:true});up()})();
+</script>
+</body>
+</html>
